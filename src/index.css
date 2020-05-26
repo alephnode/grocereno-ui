@@ -2,6 +2,10 @@ body {
   overflow: hidden;
 }
 
+.App-logo {
+  height: 50px;
+}
+
 .site-layout-content {
   background: #fff;
   padding: 24px;
@@ -9,7 +13,7 @@ body {
   min-height: calc(100vh - 180px);
 }
 .logo {
-  color: #fff;
+  color: #F7F7FF;
   float: left;
   letter-spacing: 0.2em;
   font-size: 1.5em;
