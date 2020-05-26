@@ -2,7 +2,7 @@ import React from 'react';
 import 'antd/dist/antd.css';
 import './index.css';
 import RecipeList from './components/RecipeList';
-import {Layout} from 'antd';
+import {Layout, Button} from 'antd';
 
 const {Header, Content, Footer} = Layout;
 
@@ -16,9 +16,10 @@ function App() {
         <div className="site-layout-content">
           <h1>Recipes</h1>
           <RecipeList />
+          <Button type="primary">generate grocery list</Button>
         </div>
       </Content>
-      <Footer style={{textAlign: 'center'}}>&copy; 2020 Grocereno, Inc.</Footer>
+      <Footer style={{textAlign: 'center'}}>&copy; 2020 grocereno, inc.</Footer>
     </Layout>
   );
 }
