@@ -20,7 +20,7 @@ function App() {
           <Button type="primary">generate grocery list</Button>
         </div>
       </Content>
-      <Footer style={{textAlign: 'center'}}>&copy; 2020 grocereno, inc.</Footer>
+  <Footer style={{textAlign: 'center'}}>&copy; {new Date().getFullYear()} grocereno, inc.</Footer>
     </Layout>
   );
 }
